@@ -9,4 +9,13 @@
 4. Tailwind CSS: Utility-first CSS framework for styling.
    
 ## Usage
-
+# Generating Social Media Posts
+* Enter a prompt in the input field on the homepage.
+* Click on "Generate Posts" to generate social media posts based on the prompt.
+* The generated posts will be displayed below the input field.
+# Saving Posts to Google Spreadsheet
+ * Posts generated using the above step will automatically be saved to a Google Spreadsheet.
+ * The spreadsheet will contain columns for Timestamp, Prompt, and Post.
+# Bonus: Retrieve and Display Posts
+* Posts saved in the Google Spreadsheet can be fetched and displayed below the input field.
+* Ensure that the Google Spreadsheet is accessible to the application via the Google Sheets API.
