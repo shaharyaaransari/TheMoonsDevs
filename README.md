@@ -1,3 +1,4 @@
+
 # TheMoonsDevs
 ## Description
   This web application allows users to input a prompt to generate social media posts using OpenAI's API. The generated posts are then saved to a Google Spreadsheet using Google Sheets API. Additionally, users can fetch and display the generated posts from the spreadsheet.
@@ -22,3 +23,8 @@
  ## APIs Used
 * GeminiAI API: Used for generating social media posts based on user prompts.
 * Google Sheets API: Used for storing and retrieving generated posts in a Google Spreadsheet.
+## over View
+ ![Screenshot (406)](https://github.com/shaharyaaransari/TheMoonsDevs/assets/113225294/89d70629-9e0e-4b9d-a1d5-0043ff4e6508)
+ ![Screenshot (407)](https://github.com/shaharyaaransari/TheMoonsDevs/assets/113225294/596ac76b-fcb8-4976-ab6c-64ea4ac5b5f1)
+ ![Screenshot (408)](https://github.com/shaharyaaransari/TheMoonsDevs/assets/113225294/3dc71a9d-1f37-4548-8f1c-667d974c4c48)
+
