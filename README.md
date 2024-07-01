@@ -19,3 +19,6 @@
 # Bonus: Retrieve and Display Posts
 * Posts saved in the Google Spreadsheet can be fetched and displayed below the input field.
 * Ensure that the Google Spreadsheet is accessible to the application via the Google Sheets API.
+ ## APIs Used
+* GeminiAI API: Used for generating social media posts based on user prompts.
+* Google Sheets API: Used for storing and retrieving generated posts in a Google Spreadsheet.
