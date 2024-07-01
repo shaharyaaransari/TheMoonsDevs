@@ -1,7 +1,13 @@
 import axios from "axios";
 
-const ShowData = (prompt, generatedPost) => {
-  const timestamp = new Date().toISOString()
+interface DataEntry {
+  Timestamp: string;
+  Prompt: string;
+  Post: string;
+}
+
+const ShowData = (prompt: string, generatedPost: string) => {
+  const timestamp = new Date().toISOString();
   
   const data = {
     data: [

@@ -24,19 +24,18 @@ export default function Home() {
           contents: [{ parts: [{ text: prompt }] }],
         },
       });
-
-      let generatedPost = response.data.candidates[0].content.parts[0].text
-        .slice(0, 200)
-        .trim();
-
-      if (!generatedPost || generatedPost.includes("  ")) {
+  showPost();
+      let generatedPost =
+        response.data.candidates[0].content.parts[0].text.slice(0, 200);
+      if (!generatedPost || generatedPost.trim().length === 0) {
         generatedPost = "Content not available";
+      } else {
+        generatedPost = generatedPost.slice(0, 200).trim();
       }
-
       setPost(generatedPost);
+
       ShowData(prompt, generatedPost);
-      setPrompt("");
-      showPost();
+      
     } catch (error) {
       console.error("Error generating post:", error);
     }
